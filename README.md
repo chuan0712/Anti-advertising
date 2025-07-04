@@ -110,6 +110,7 @@
 - [去APP下载提示规则](https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt)
 - [AWAvenue 秋风广告规则](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt)
 - [GOODBYEADS 规则](https://github.com//8680/GOODBYEADS)
+- [自建规则](https://github.com/chuan0712/Anti-advertising/tree/master/data/mod)
 
 </details>
 
