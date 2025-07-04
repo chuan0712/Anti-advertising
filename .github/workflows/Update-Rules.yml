@@ -1,8 +1,8 @@
 name: Update Rules
-on: 
+on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 22 * * *'  # 每天 UTC 22:00（北京时间 6:00）运行
     
 jobs:
   update:
