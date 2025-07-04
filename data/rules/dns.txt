@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-07-04 15:37:27（北京时间）
+! Version: 2025-07-05 06:24:18（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10256
+! Total count: 10264
 ||*.diwodiwo.xyz^
 ||*.p2p.huya.com^
 ||*.va.huya.com^
@@ -2078,6 +2078,7 @@
 ||cfdvd779.fun^
 ||cfepws.com^
 ||cfg.imtt.qq.com^
+||cfoxpgfzxl.com^
 ||cfwlvmg.top^
 ||cggyyi.xyz^
 ||cgi.connect.qq.com^
@@ -3104,6 +3105,7 @@
 ||euitx.cn^
 ||eujxqgh.cn^
 ||eulaliadoradl.com^
+||eung95wkni.com^
 ||euresdw.top^
 ||evb0gxo.icu^
 ||evbb.xyz^
@@ -3292,6 +3294,7 @@
 ||first-hufu.oss-cn-shanghai.aliyuncs.com^
 ||fish882.xyz^
 ||fiu07031kl.com^
+||fiu07041kl.com^
 ||fiwyjar.cn^
 ||fjbglfrv.com^
 ||fjctlnn.top^
@@ -4457,6 +4460,7 @@
 ||iqgoukn.cn^
 ||iqi4l.icu^
 ||iqkrungrikhu.com^
+||iqsswq.icu^
 ||iqtucudfff.com^
 ||ir4.icu^
 ||irc.qubiankeji.com^
@@ -4547,6 +4551,7 @@
 ||iyqbsst.top^
 ||iytrn.xyz^
 ||iyuedu.cn.com^
+||iyww.cn^
 ||iyxh.cn^
 ||izalflh.cn^
 ||izopsg.icu^
@@ -6403,6 +6408,7 @@
 ||oqyiapj.cn^
 ||orange-dc.youku.com^
 ||orbit.jd.com^
+||orchidea46.com^
 ||orcinhyi.com^
 ||orkreats.com^
 ||orodsmnu.com^
@@ -6551,6 +6557,7 @@
 ||pcqsajr.icu^
 ||pcvzpj.xyz^
 ||pcxnrd.xyz^
+||pcxnrr.icu^
 ||pdhhmf.cn^
 ||pdiabbi.cn^
 ||pdjjrh.xyz^
@@ -9689,6 +9696,7 @@
 ||y18ut1kw22.com^
 ||y1n1n3e0v.com^
 ||y4l.icu^
+||y4re1yokqv.com^
 ||y66xvgo5i.chuimg.com^
 ||y74s.xyz^
 ||y7ts.icu^

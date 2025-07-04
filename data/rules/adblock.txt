@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-07-04 15:37:27（北京时间）
+! Version: 2025-07-05 06:24:18（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 31452
+! Total count: 31460
 
 ###ADtip
 ###AdBlockDialog
@@ -3969,18 +3969,18 @@ $websocket,domain=wap.yushuwu.cloud
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="920"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="950"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
-18comic.*##.modal-body > ul.pop-list
-18comic.*##.top-a2db
-18comic.*##body .bot-per
-18comic.*##div[data-height="90"][data-width="728"]
-18comic.*#@#img[style*="300px"]
 18comic.org,18comic.vip##.container > div[style^="margin-bottom:"]:has(> div.col-lg-3 > div[data-exo])
 18comic.org,18comic.vip##.container > div[style^="padding:"]:has(> [data-group="content_page"])
+18comic.org,18comic.vip##.modal-body > ul.pop-list
 18comic.org,18comic.vip##.tab-content + .row:has(> div[class] > div[class] > .group-notice)
+18comic.org,18comic.vip##.top-a2db
+18comic.org,18comic.vip##body .bot-per
 18comic.org,18comic.vip##div[class="row"][style="display: flex;flex-wrap: wrap;"]
 18comic.org,18comic.vip##div[data-group^="photo_center_games_"]
 18comic.org,18comic.vip##div[data-group^="skyscraper_"]
 18comic.org,18comic.vip##div[data-height="250"][data-width="300"]
+18comic.org,18comic.vip##div[data-height="90"][data-width="728"]
+18comic.org,18comic.vip#@#img[style*="300px"]
 18comic.org,18comic.vip,18-comic.work#$?#.col-xs-6 > div[data-type][style]:has(> ins + script) { remove: true; }
 18comic.org,18comic.vip,18-comic.work#%#//scriptlet('abort-current-inline-script', 'document.dispatchEvent', '/getexoloader/')
 18comic.org,18comic.vip,18-comic.work#?#.col-xs-6 > div[data-show][style]:has(> p:only-child > a[target="_blank"] > img)
@@ -18162,6 +18162,7 @@ zzzyk.com###Tinfo
 ||cfdvd779.fun^
 ||cfepws.com^
 ||cfg.imtt.qq.com^
+||cfoxpgfzxl.com^
 ||cfwlvmg.top^
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgdyw.net/xx/
@@ -20128,6 +20129,7 @@ zzzyk.com###Tinfo
 ||euitx.cn^
 ||eujxqgh.cn^
 ||eulaliadoradl.com^
+||eung95wkni.com^
 ||euresdw.top^
 ||evanescentedge.com^$third-party
 ||evasivejar.com^$third-party
@@ -20445,6 +20447,7 @@ zzzyk.com###Tinfo
 ||fishersfinds.com^$third-party
 ||fitnessmapper.com^$third-party
 ||fiu07031kl.com^
+||fiu07041kl.com^
 ||fivesidedsquare.com^$third-party
 ||fiwyjar.cn^
 ||fixedfold.com^$third-party
@@ -22490,6 +22493,7 @@ zzzyk.com###Tinfo
 ||iqkrungrikhu.com^
 ||iqnew.com/d/js/m/thea
 ||iqshw.com/d/js/m/thea
+||iqsswq.icu^
 ||iqtucudfff.com^
 ||ir4.icu^
 ||irc.qubiankeji.com^
@@ -22642,6 +22646,7 @@ zzzyk.com###Tinfo
 ||iyqbsst.top^
 ||iytrn.xyz^
 ||iyuedu.cn.com^
+||iyww.cn^
 ||iyxdm.*/js/gad_
 ||iyxh.cn^
 ||izalflh.cn^
@@ -25488,6 +25493,7 @@ zzzyk.com###Tinfo
 ||oqyiapj.cn^
 ||orange-dc.youku.com^
 ||orbit.jd.com^
+||orchidea46.com^
 ||orcinhyi.com^
 ||org/ad$image
 ||org/js/ad$script
@@ -25736,6 +25742,7 @@ zzzyk.com###Tinfo
 ||pcvideoyf.titan.mgtv.com/pb/*.mp4
 ||pcvzpj.xyz^
 ||pcxnrd.xyz^
+||pcxnrr.icu^
 ||pdfbook.cn/wp-content/uploads/2017/11/049.jpg
 ||pdhhmf.cn^
 ||pdiabbi.cn^
@@ -30600,6 +30607,7 @@ zzzyk.com###Tinfo
 ||y1n1n3e0v.com^
 ||y3600.cc/js/jquery.min.js
 ||y4l.icu^
+||y4re1yokqv.com^
 ||y66xvgo5i.chuimg.com^
 ||y74s.xyz^
 ||y7ts.icu^
