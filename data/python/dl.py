@@ -35,17 +35,14 @@ subprocess.run("cp ./data/mod/whitelist.txt ./tmp/allow01.txt", shell=True)
 
 # 拦截规则
 adblock = [
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
-    "https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt",
-    "https://easylist-downloads.adblockplus.org/easylist.txt",
-    "https://easylist-downloads.adblockplus.org/easylistchina.txt",
-    "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
-    "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt",
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_small.txt",
-    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
-    "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
-    "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
+    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt", # AdGuard 中文过滤器 2w+规则
+    "https://easylist-downloads.adblockplus.org/easylistchina.txt",                                 # EasyList China 2w+规则
+    "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",                            # 用于移除网站屏蔽拦截 2000+规则
+    "https://raw.githubusercontent.com/chuan0712/Anti-advertising/master/data/mod/OwnerFilter.txt", # 自定义规则
+    "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",                          # 轻量广告规则，5000+规则
+    "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt",          # app下载屏蔽 1000-规则
+    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt", # 秋风 2000+规则
+    "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",                # 乘风 1000+规则
 ]
 
 # 白名单规则
