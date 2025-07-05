@@ -44,6 +44,28 @@ jobs:
           python ./data/python/title.py
           python ./data/python/clean-readme.py
 
+      - name: 🔄 Update Rule Statistics in README
+        run: |
+          TIME=$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')
+          BLOCK_COUNT=$(grep -hvE '^#|^$' ./data/rules/adblock.txt | wc -l)
+          DNS_COUNT=$(grep -hvE '^#|^$' ./data/rules/dns.txt | wc -l)
+          WHITE_COUNT=$(grep -hvE '^#|^$' ./data/rules/allow.txt | wc -l)
+
+          awk -v time="$TIME" -v block="$BLOCK_COUNT" -v dns="$DNS_COUNT" -v white="$WHITE_COUNT" '
+            BEGIN { in_section=0 }
+            /^## 📊 项目统计/ { print; in_section=1; print "```"; next }
+            in_section && /^```/ {
+              print "更新时间: " time " （北京时间）\n"
+              print "📈 拦截规则数量: " block
+              print "🛡️ DNS拦截规则数量: " dns
+              print "✅ 白名单规则数量: " white
+              print "```"
+              in_section=0
+              next
+            }
+            !in_section { print }
+          ' README.md > tmp && mv tmp README.md
+
       - name: Git push assets to Github
         run: |
           git init
@@ -61,3 +83,4 @@ jobs:
           repository: ${{ github.repository }}
           retain_days: 0
           keep_minimum_runs: 0
+          
