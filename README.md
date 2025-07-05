@@ -3,22 +3,15 @@
 <h3 align="center">一个强力去广告的规则集合</h3>
 
 <p align="center">
-  <a href="https://github.com/chuan0712/Anti-advertising">
-    <img src="https://img.shields.io/github/last-commit/chuan0712/Anti-advertising?style=flat-square&color=blue" alt="last update" />
-  </a>
-  <a href="https://github.com/chuan0712/Anti-advertising">
-    <img src="https://img.shields.io/github/forks/chuan0712/Anti-advertising?style=flat-square&color=brightgreen" alt="forks" />
-  </a>
-  <a href="https://github.com/chuan0712/Anti-advertising">
-    <img src="https://img.shields.io/github/stars/chuan0712/Anti-advertising?style=flat-square&color=yellow" alt="stars" />
-  </a>
-  <a href="https://github.com/chuan0712/Anti-advertising/issues/">
-    <img src="https://img.shields.io/github/issues/chuan0712/Anti-advertising?style=flat-square&color=red" alt="open issues" />
-  </a>
-  <a href="https://github.com/chuan0712/Anti-advertising">
-    <img src="https://img.shields.io/github/license/chuan0712/Anti-advertising?style=flat-square&color=9cf" alt="license" />
-  </a>
+
+[![Last Commit](https://img.shields.io/github/last-commit/chuan0712/Anti-advertising?style=flat-square&color=blue)](https://github.com/chuan0712/Anti-advertising)
+[![Forks](https://img.shields.io/github/forks/chuan0712/Anti-advertising?style=flat-square&color=brightgreen)](https://github.com/chuan0712/Anti-advertising)
+[![Stars](https://img.shields.io/github/stars/chuan0712/Anti-advertising?style=flat-square&color=yellow)](https://github.com/chuan0712/Anti-advertising)
+[![Issues](https://img.shields.io/github/issues/chuan0712/Anti-advertising?style=flat-square&color=red)](https://github.com/chuan0712/Anti-advertising/issues)
+[![License](https://img.shields.io/github/license/chuan0712/Anti-advertising?style=flat-square&color=9cf)](https://github.com/chuan0712/Anti-advertising)
+
 </p>
+
 
 <p align="center">
   <b>🚫 强力去广告 | 🔄 定时更新 | 🛡️ 多种格式</b>
