@@ -61,10 +61,10 @@ jobs:
               print "✅ 白名单规则数量: " white
               print "```"
               in_section=0
-              next
+              下一处
             }
             !in_section { print }
-          ' README.md > tmp && mv tmp README.md
+          ' README.md > tmp_readme.md && mv tmp_readme.md README.md
 
       - name: Git push assets to Github
         run: |
